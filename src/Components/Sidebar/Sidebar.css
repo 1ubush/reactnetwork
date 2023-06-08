@@ -1,0 +1,23 @@
+.item_list {
+   width: 100%;
+   height: 20%;
+   display: flex;
+   flex-direction: column;
+   justify-content: space-between;
+   align-items: flex-start;
+}
+.item_list a {
+   text-indent: 10px;
+   font-size: 20px;
+   display: flex;
+   align-items: center;
+   text-decoration: none;
+   color: #F8F7FF;
+   transition: 0.5s ease;
+   width: 100%;
+   height: 100%;
+}
+a:hover {
+   background-color: #FFD8BE;
+   color: black;
+}
