@@ -14,7 +14,7 @@
    grid-template-rows: 10% 1fr 5%;
    grid-template-columns: 20% 80%;
    width: 70%;
-   height: 100vh;
+   height: 200vh;
 }
 .header {
    background-color: #9381FF;
@@ -26,10 +26,6 @@
    border-radius: 25px 25px 0 0;
 }
 .conteiner {
-   display: flex;
-   justify-content: flex-start;
-   align-items: center;
-   flex-direction: column;
    background-color: #FFD8BE;
    grid-area: conteiner;
    color: grey;
